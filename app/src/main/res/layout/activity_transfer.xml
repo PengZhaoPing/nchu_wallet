@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="請輸入欲轉帳對象之地址"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/transfer_address_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="請輸入地址 ..."
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="請輸入轉帳金額"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/transfer_amount_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="請輸入金額 ..."
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="#0096ff"
+            android:text="確認轉帳"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
